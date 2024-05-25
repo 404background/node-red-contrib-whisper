@@ -1,3 +1,20 @@
+# ignore
+
+pyenv/
+*.json
+!package.json
+!examples/*.json
+__pycache__/
+.git/
+*.srt
+*.tsv
+*.txt
+*.vtt
+*.wav
+*.tmp
+
+# Node
+
 # Logs
 logs
 *.log

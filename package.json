@@ -1,0 +1,35 @@
+{
+  "name": "@background404/node-red-contrib-whisper",
+  "version": "0.0.1",
+  "description": "Node for Whisper",
+  "main": "whisper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "python setup.py"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "node-red": {
+    "version": ">=1.3.7",
+    "nodes": {
+      "whisper": "whisper.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404background/node-red-contrib-whisper.git"
+  },
+  "keywords": [
+    "node-red",
+    "whisper",
+    "OpenAI",
+    "Python"
+  ],
+  "author": "background404",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/404background/node-red-contrib-whisper/issues"
+  },
+  "homepage": "https://github.com/404background/node-red-contrib-whisper#readme"
+}
