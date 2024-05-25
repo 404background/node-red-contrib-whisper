@@ -12,7 +12,7 @@ When you install this node, it creates Python virtual environment and Whisper is
 
 ## How to use
 
-Here is a sample flow.
+In the examples folder, you can find the sample flows.  
 ![flow.pnt](./img/flow.png)
 
 In this node, there are three values that can be set in the edit dialog.  
@@ -41,4 +41,20 @@ Windows 10
 If you find any errors, bugs, or improvements, please report them to the issue!  
 In the examples folder, you will find a sample for creating a list of language models.  
 You can use it to add language models.  
-I plan to add more samples in the future.  
+![language.png](./img/language.png)
+I plan to add more samples.  
+
+
+## Link
+
+This node is based on my node: python-venv.  
+<https://flows.nodered.org/node/@background404/node-red-contrib-python-venv>
+
+More information about the python-venv node:  
+<https://404background.com/program/node-create-python-venv/>
+
+An article about my experiments with whisper using Python:  
+<https://404background.com/program/whisper/>
+
+About publishing nodes:  
+<https://404background.com/program/node-red-publish/>
