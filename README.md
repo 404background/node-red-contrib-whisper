@@ -4,11 +4,15 @@ Node for Whisper
 
 ## Overview
 
-This node uses [OpenAI's Whisper](https://github.com/openai/whisper)  
-<https://github.com/openai/whisper>
+This node uses [OpenAI's Whisper](https://github.com/openai/whisper) and can be transcribed in Node-RED.  
 
 **Python is required** to run this node.  
 When you install this node, it creates Python virtual environment and Whisper is installed.  
+
+## License
+
+This repository under [MIT](./LICENSE) License.  
+Whisper by OpenAI - [MIT](https://github.com/openai/whisper/blob/main/LICENSE) License  
 
 ## How to use
 
